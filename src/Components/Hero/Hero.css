@@ -1,0 +1,121 @@
+.video{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+    /* z-index: 1; */
+}
+
+.hero{
+    width: 100%;
+    height: 1000px;
+    z-index: 1;
+    
+}
+
+
+.Text{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    color: white;
+    margin-top: 150px;
+    padding: 50px;
+    z-index: 100;
+ 
+}
+
+.overlay{
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+.Save{
+    font-size: 100px;
+}
+.climateDes{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.Download{
+    margin-top: 60px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1280px){
+    .Text{
+        width: 80%;
+        margin-top: 100px;
+       }
+
+       .hero{
+        width: 100%;
+        height: 800px;
+        
+    }
+
+    .overlay{
+        height: 800px;
+        
+    }
+}
+
+@media screen and (max-width:1024px){
+    .Text{
+        width: 90%;
+        margin-top: 50px;
+       }
+}
+
+
+@media screen and (max-width:600px) {
+    .Text{
+        width: 100%;
+        margin-top: 70px;
+        padding: 10px;
+       }
+
+       .Save{
+        font-size: 60px;
+      
+    }
+}
+
+@media screen and (max-width:450px) {
+    .Save{
+        font-size: 50px;
+      
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Save{
+        font-size: 40px;
+      
+    }
+
+    .climateDes{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .Download{
+        margin-top: 60px;
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+    }
+}

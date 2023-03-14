@@ -1,0 +1,100 @@
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.MainAboutDiv{
+    padding: 30px;
+    background-color: #ECE5DD;
+}
+.AboutDiv{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: #DCF8C6;
+    padding: 20px;
+}
+
+.AboutText{
+    width: 700px;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width:1280px) {
+    .AboutDiv{
+        
+        width: 100%;
+        flex-wrap: wrap;
+     
+    }
+
+    .AboutText{
+        width: 500px;
+        font-size: 20px;
+        
+    }
+
+    img{
+        object-fit: cover;
+        width: 500px;
+        height: 700px;
+        background-position-x: center;
+    }
+
+    .img{
+        width: 500px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1240px){
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        background-position-x: center;
+    }
+
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .AboutText{
+        width: 100%;
+        font-size: 20px;
+        margin-top: 30px;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    img{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        background-position-x: center;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .AboutDiv{
+        padding: 10px;
+    }
+
+    .MainAboutDiv{
+        padding: 10px;
+       
+    }
+}
